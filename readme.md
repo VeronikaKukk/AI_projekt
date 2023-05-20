@@ -9,6 +9,7 @@
 ### Kasutatud ideed (nii kursuse materjalidest kui mujalt) koos viidetega
 
 Kasutatud andmestik (ASL alphabet): https://www.kaggle.com/datasets/grassknoted/asl-alphabet
+Mudeli ettevalmistamine ja treenimine: https://www.tensorflow.org/tutorials/images/classification?fbclid=IwAR1RG7FjIpTG5yTneJ5oBanPJJJ5j1vlzeN7RR4A6ufp1P3QRreqTqhz0nU
 
 ---
 
