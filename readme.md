@@ -32,7 +32,7 @@ Video sisselugemine kaamerast: Tehisintellekt (LTAT.01.003), praktikum 9 (lisama
 
 ### Iga autori enda panuse kirjeldus
 
-**Lauri:** Treenisin erinevaid mudeleid, et tuvastada videovoost käemärke ja lisasin videovoo ülesse riba, kuhu tekivad jooksva sõna tähed.
+**Lauri:** Treenisin kolm erinevat mudelit, et tuvastada videovoost käemärke ja lisasin videovoo ülesse riba, kuhu tekivad jooksva sõna tähed. Töötlesin veebikaamera sisendit, et närvivõrk saaks selle poolt tehtud piltide pealt ennustusi teha.
 
 **Veronika:** Tegin andmete jagamise train ja validationiks. Treenisin kaks mudelit. Tegin kõnesünteesi osa, tegin video sisselugemise ja programmi katkestamise. 
 
@@ -40,10 +40,16 @@ Video sisselugemine kaamerast: Tehisintellekt (LTAT.01.003), praktikum 9 (lisama
 
 ### Programmi testimisvõimalused ja vähemalt mõned testimistulemused
 
-Tumedas kijras on näha, mis viibe oli ning iga pildi peal on näha, mida mudel selle viipe kohta pakkus.
-![mudel5_test](https://github.com/VeronikaKukk/AI_projekt/assets/92779126/13812740-3eb3-4aca-b845-90c316f4c241)
-![mudel4_test](https://github.com/VeronikaKukk/AI_projekt/assets/92779126/8d03c119-e281-4e37-8e3a-85e4e252b1d0)
+Programmi saab testida proovides viibata mingit tähte või ka lihtsamaid sõnu.
 
+![](https://i.gyazo.com/f3feb6620c550235629d79c9ba542123.png)
+Esimese mudeli õiged ennustused
+
+![](https://i.gyazo.com/1a54289750535e7febe438c120b4533b.png)
+Neljanda mudeli ennustused. All tumedas kirjas on näha, mis viibe oli ning piltidelt on näha, mida mudel selle viipe kohta pakkus.
+
+![](https://i.gyazo.com/07aec7d28091cf7aad35152e98747a9e.png)
+Viienda mudeli ennustused. All tumedas kirjas on näha, mis viibe oli ning piltidelt on näha, mida mudel selle viipe kohta pakkus.
 
 ---
 
