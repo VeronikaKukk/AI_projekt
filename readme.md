@@ -24,6 +24,8 @@ Mudeli ettevalmistamine ja treenimine: https://www.tensorflow.org/tutorials/imag
 
 Ühe närvivõrgu inspiratsioon: https://www.kaggle.com/code/edbertkhovey/uts-asl-2022-deep-learning
 
+Veel üks närvivõrk:  https://www.kaggle.com/code/namanmanchanda/asl-detection-99-accuracy 
+
 Video sisselugemine kaamerast: Tehisintellekt (LTAT.01.003), praktikum 9 (lisamaterjal)
 
 ---
