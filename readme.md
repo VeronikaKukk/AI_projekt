@@ -12,7 +12,7 @@ Meie töö eesmärk oli kasutada masinõpet, et tuvastada veebikaamera videovoos
 
 ASL on keel, mis on laialdaselt kasutusel Põhja-Ameerikas, eelkõige inimeste seas, kes on kaotanud kuulmisvõime. Keeles väljendab iga inglise tähte üks unikaalne käemärk, mida viibates on võimalik teistega suhelda ilma kõne, suud ja kõrvu kasutamata. 
 
-Töö käigus on vaja kasutada kahte tehisintellekti komponenti, masinõpet ja kõnesünteesi, millest esimene tunneb ära videovoost käemärgid ja teine sünteesib tuvastatud märkidest kõne, et viibatud sõna kasutajale ette lugeda.
+Töö käigus on vaja kasutada kahte tehisintellekti komponenti, masinõpet ja kõnesünteesi, millest esimene tunneb ära videovoost käemärgid ja teine sünteesib tuvastatud märkidest kõne, et viibatud sõna kasutajale ette lugeda. Lisaks kasutame ka videosisendi töötlemist ehk muudame videost saadud kaadri suurust ja lisame kaadrile peale tekstikasti, kus on seni viibatud märgid.
 
 ---
 
@@ -24,13 +24,15 @@ Mudeli ettevalmistamine ja treenimine: https://www.tensorflow.org/tutorials/imag
 
 Ühe närvivõrgu inspiratsioon: https://www.kaggle.com/code/edbertkhovey/uts-asl-2022-deep-learning
 
+Video sisselugemine kaamerast: Tehisintellekt (LTAT.01.003), praktikum 9 (lisamaterjal)
+
 ---
 
 ### Iga autori enda panuse kirjeldus
 
 **Lauri:** Treenisin erinevaid mudeleid, et tuvastada videovoost käemärke ja lisasin videovoo ülesse riba, kuhu tekivad jooksva sõna tähed.
 
-**Veronika:** <>
+**Veronika:** Tegin andmete jagamise train ja validationiks. Treenisin kaks mudelit. Tegin kõnesünteesi osa, tegin video sisselugemise ja programmi katkestamise. 
 
 ---
 
