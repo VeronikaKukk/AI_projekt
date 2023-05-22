@@ -43,12 +43,15 @@ Video sisselugemine kaamerast: Tehisintellekt (LTAT.01.003), praktikum 9 (lisama
 Programmi saab testida proovides viibata mingit tähte või ka lihtsamaid sõnu.
 
 ![](https://i.gyazo.com/f3feb6620c550235629d79c9ba542123.png)
+
 Esimese mudeli õiged ennustused
 
 ![](https://i.gyazo.com/1a54289750535e7febe438c120b4533b.png)
+
 Neljanda mudeli ennustused. All tumedas kirjas on näha, mis viibe oli ning piltidelt on näha, mida mudel selle viipe kohta pakkus.
 
 ![](https://i.gyazo.com/07aec7d28091cf7aad35152e98747a9e.png)
+
 Viienda mudeli ennustused. All tumedas kirjas on näha, mis viibe oli ning piltidelt on näha, mida mudel selle viipe kohta pakkus.
 
 ---
