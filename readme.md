@@ -42,6 +42,8 @@ Video sisselugemine kaamerast: Tehisintellekt (LTAT.01.003), praktikum 9 (lisama
 
 Tumedas kijras on näha, mis viibe oli ning iga pildi peal on näha, mida mudel selle viipe kohta pakkus.
 ![mudel5_test](https://github.com/VeronikaKukk/AI_projekt/assets/92779126/13812740-3eb3-4aca-b845-90c316f4c241)
+![mudel4_test](https://github.com/VeronikaKukk/AI_projekt/assets/92779126/8d03c119-e281-4e37-8e3a-85e4e252b1d0)
+
 
 ---
 
