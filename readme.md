@@ -45,9 +45,13 @@ Video sisselugemine kaamerast: Tehisintellekt (LTAT.01.003), praktikum 9 (lisama
 ### Töö käigu kirjeldus
 *(millised olid probleemid, mis õnnestus, mis jäi realiseerimata)*
 
+Esimesena alustasime videosisendi lugemisest. Sinna juurde lisasime kõnesünteesi. Esialgselt ei osanud veel heli esitada samaaegselt videoga, seega nende ühendamise tegime hiljem. Edasi tegime meetodi, mis lõikab videosisendi sama suureks treenimisel kasutatavate andmetega (200 * 200). Videopildi peale lisasime musta kasti, mille peal tekst asetseb. Järgmiseks alustasime kõige raskema osaga ehk mudelite ettevalmistamise ja treenimisega. Ettevalmistus tähendab andmete sisselugemist ja mudeli kihtide valimist. Peale seda saime korda ka video ja heli üheaegse esitamise. Kuna mudelite treeimine võttis mitmeid tunde, siis nende järel ootamise ajal tegime väiksemaid parandusi ja puhastusi koodis. Kui mudelid treenitud said, saime aru, et kuna täpsus ei ole eriti hea, siis pidime lisama ka teise võimaluse, millega kõnesünteesi kasutada. Esialgselt oli plaanis ainult 'space' viipe nägemisel tekst ettelugeda, aga esimene mudel ei saanud katsetamisel 'space' viipest aru, siis lisasime klaviatuuril space vajutamise võimaluse (see loeb teksti ette). 
+
 Üheks probleemiks oli see, et tahtsime kõigepealt teha klassifitseerijat, mis otse veebikaamera videovoost käemärgid ära tunneks, aga selle tarbeks oli vaja treeningandmed käsitsi ära märgistada, mis ei tundunud umbes 27 (tähe) * 3000 (pilte tähe kohta) korral mõistlik.
 
 Seejärel otsustasime, et teeme videovoost pildi ja anname selle mõnele "tavalisele" närvivõrgule sisendiks. Kuid ka tavalise närvivõrgu tegemine osutus vägagi probleemseks, sest pilte oli palju ja nad olid (võrreldes tekstiliste andmetega) üsna suured, mistõttu kulus treenimiseks väga palju aega. Erinevad katsed treenimist kiirendada (kasutada treenimisel protsessori asemel videokaarti, muuta kihtide struktuuri lihtsamaks/kiiremaks, jne) kas üldse ei aidanud ega töötanud või andsid hoopis vastupidiseid või mitte etteaimatavavaid tulemusi, mistõttu oli kohati raske leida, mida peaks muutma, et paremaid tulemusi saada.
+
+Probleem esines ka heli ja video ühendamisel, sest sisendit loeti iga kaader sisse. See tähendas, et mitu heli hakkasid samal ajal käima ja see tekitas programmis erroreid. Lahendasime selle nii, et loeme sisendit sisse iga 5 sekundi järel. See annab piisavalt aega, et heli mängiks lõpuni. 
 
 Kokkuvõtteks võib öelda, et kõik lubatu sai realiseeritud. Kasutaja saab näidata kaamerale ASL tähti, need tehakse tekstiks ning loetakse seejärel talle ette. Probleem on aga selles, et käemärke tuvastav närvivõrk ei ole piisavalt hea, mis on eelkõige tingitud arvutusvõimsuse ja aja puudusest.
 
